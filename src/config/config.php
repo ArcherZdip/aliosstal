@@ -1,9 +1,9 @@
 <?php
 
 return [
-    'endpoint' => env('OSS_ENDPOINT', 'oss-cn-qingdao.aliyuncs.com'),
+    'endpoint' => env('OSS_ENDPOINT', ''),
 
-    'endpoint_internal' => env('OSS_ENDPOINT_INTERNAL', 'oss-cn-qingdao-internal.aliyuncs.com'),
+    'endpoint_internal' => env('OSS_ENDPOINT_INTERNAL', ''),
 
     'internal_upload' => env('OSS_USE_INTERNAL', false),
 
