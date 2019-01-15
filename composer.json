@@ -1,0 +1,19 @@
+{
+    "name": "archerzdip/ali-oss-tal",
+    "description": "ali oss tal",
+    "authors": [
+        {
+            "name": "zhanglingyu",
+            "email": "zhanglingyu@100tal.com"
+        }
+    ],
+    "require": {
+        "aliyuncs/oss-sdk-php": "~2.0",
+        "guzzlehttp/guzzle": "^6.2"
+    },
+    "autoload": {
+        "psr-0": {
+            "ArcherZdip\\AliOssTal": "src/"
+        }
+    }
+}
